@@ -1,0 +1,54 @@
+/*--------------------------------------- HERO CONTENT - MOBLIE ---------------------------------------*/
+/*@media screen and (max-width: 991px) {}*/
+
+.heroImage .content{
+  left: 5%;
+  position: relative;
+  max-width: 90%;
+  padding: 24px;
+  flex-wrap: wrap;
+}
+#name{
+  margin-left: -5%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#descrption{
+  margin-left: 10%;
+  margin-top: 5vh;
+  font-size: 1.5rem;
+}
+
+.heroImage .content button {
+  border: 2.5px solid var(--text-color);
+  background-color: transparent;
+  color:  var(--text-color);
+  padding: 2.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: 0.8s;
+}
+
+#resume-button{
+  margin-left: 15%;
+  margin-top: 3vh;
+  background-color: var(--text-color);
+  color: var(--color-fallback);
+}
+
+#brandIcon{
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 280px) {
+  .heroImage .content button, #descrption, #name{
+    all: unset;
+  }
+}
+
+
+  /*--------------------------------------- HERO CONTENT - MOBLIE ---------------------------------------*/

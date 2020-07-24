@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-custom_13);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #393939;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .cls-2, .cls-3 {
+            fill: #fff;
+          }
+      }
+
+      .cls-2 {
+        stroke: rgba(0,0,0,0);
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <clipPath id="clip-custom_13">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="custom_13" data-name="custom – 13" class="cls-1">
+    <g id="Component_3_2" data-name="Component 3 – 2" transform="translate(14 21)">
+      <path id="Subtraction_34" data-name="Subtraction 34" class="cls-2" d="M-2588.313-1794.467h0l-61.03,0-49.875-131.906h-136.332l18.033-49.547h100.252l-73.828-200.485c-2.4-6.535-4.825-17.133-7.219-31.5h-1.313c-2.178,13.284-4.717,23.882-7.547,31.5l-73.172,200.485h.094l-13.544,37.212-4.662,12.143.212.081-.04.11h-.436l-46.921,131.906H-3007L-2826.531-2265h57.093l181.125,470.531Z" transform="translate(3007 2265)"/>
+      <path id="Subtraction_30" data-name="Subtraction 30" class="cls-3" d="M119.031,50.412H0V0H137.38L119.031,50.412Z" transform="translate(347.285 290.674)"/>
+    </g>
+  </g>
+</svg>

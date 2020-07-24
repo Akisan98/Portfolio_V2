@@ -1,0 +1,32 @@
+/*@media screen and (min-width: 500px) {  }*/
+    .heroImage .content button, #descrption, #name, #resume-button{
+      left: unset;
+      margin-left: unset;
+    }
+  
+    .heroImage .content{
+      text-align: center;
+      top: 10%;
+      max-width: 65%;
+      left: 17.5%;
+    }
+  
+    #name{
+      font-size: 6rem;
+    }
+  
+    #descrption{
+      font-size: 2.4rem;
+    }
+  
+    .heroImage .content button {
+      border: 3px solid var(--text-color);
+      background-color: transparent;
+      color:  var(--text-color);
+      padding: 3%;
+      padding-right: 8%;
+      padding-left: 8%;
+      font-weight: 700;
+      font-size: 1.6rem;
+      transition: 0.8s;
+    }

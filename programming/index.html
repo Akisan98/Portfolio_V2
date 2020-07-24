@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Primary Meta Tags -->
+    <title>Akisan - Programming | Frontend | Backend | Mobile apps</title>
+    <meta name="title" content="Akisan - Programming | Frontend | Backend | Mobile apps">
+    <meta name="description" content="I enjoy working on big complex projects as there is
+    a lot to learn, either something new or improvements of our existing knowledge and methods so we can become more efficient. Check out a couple that I have made!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.akisan.ml/programming/">
+    <meta property="og:title" content="Akisan - Programming | Frontend | Backend | Mobile apps">
+    <meta property="og:description" content="I enjoy working on big complex projects as there is
+    a lot to learn, either something new or improvements of our existing knowledge and methods so we can become more efficient. Check out a couple that I have made!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Akisan98/akisan.ml/master/programming/photos/website2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.akisan.ml/programming/">
+    <meta property="twitter:title" content="Akisan - Programming | Frontend | Backend | Mobile apps">
+    <meta property="twitter:description" content="I enjoy working on big complex projects as there is
+    a lot to learn, either something new or improvements of our existing knowledge and methods so we can become more efficient. Check out a couple that I have made!">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Akisan98/akisan.ml/master/programming/photos/website2.png">
+
+    <link rel="icon" href="https://www.akisan.ml/programming/photos/auto_change.svg">
+    <link rel="canonical" href="https://www.akisan.ml/programming/">
+
+    <!-- Image Font -->
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link async rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link async href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- -------------------------------------------------------------- NAVBAR -------------------------------------------------------------- --->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3" id="navBar">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.akisan.ml/" id="navBrand" aria-label="Akisan - Logo">
+                <!-- Navn og bilde -->
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" width="68" height="68" id="brandIcon" alt="Brand Icon - the letter A with a cut in 
+            middle and extending to the right.">
+
+              <defs>
+                <style>
+                  .cls-1 {
+                        clip-path: url(#a);
+                      }
+                
+                  .cls-2, .cls-3 {
+                    fill: #fff;
+                  }
+            
+                  .cls-2 {
+                    stroke: transparent;
+                    stroke-miterlimit: 10;
+                  }
+                </style>
+                <clipPath id="a">
+                  <rect width="512" height="512"/>
+                </clipPath>
+              </defs>
+              <g class="cls-1" data-name="custom – 13">
+                <g transform="translate(14 21)" data-name="Component 3 – 2">
+                  <path class="cls-2" transform="translate(3007 2265)" d="m-2588.3-1794.5h-61.03l-49.875-131.91h-136.33l18.033-49.547h100.25l-73.828-200.48c-2.4-6.535-4.825-17.133-7.219-31.5h-1.313c-2.178 13.284-4.717 23.882-7.547 31.5l-73.172 200.48h0.094l-13.544 37.212-4.662 12.143 0.212 0.081-0.04 0.11h-0.436l-46.921 131.91h-61.359l180.47-470.53h57.093l181.12 470.53z" data-name="Subtraction 34"/>
+                  <path class="cls-3" transform="translate(347.28 290.67)" d="M119.031,50.412H0V0H137.38L119.031,50.412Z" data-name="Subtraction 30"/>
+                </g>
+              </g>
+            </svg>
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a href="https://www.akisan.ml/" class="nav-link text-uppercase font-weight-bold">Home</a></li>
+                    <li class="nav-item active"><a href="https://www.akisan.ml/programming/" class="nav-link text-uppercase font-weight-bold">Programming<span class="sr-only">(current)</span></a></li>
+                    <!--<li class="nav-item "><a href="apps/" class="nav-link text-uppercase font-weight-bold">Mobile Applications</a></li>-->
+                    <li class="nav-item"><a href="https://www.akisan.ml/design/" class="nav-link text-uppercase font-weight-bold">Design</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- -------------------------------------------------------------- NAVBAR -------------------------------------------------------------- --->
+
+    <section class="button-row">
+
+        <div style="justify-content: space-evenly; display:flex; flex-wrap: wrap;">
+            <button onclick="window.location.href='#web'">Frontend</button>
+            <button onclick="window.location.href='#imdb'">Backend</button>
+            <button onclick="window.location.href='#binge'">Mobile Apps</button>
+        </div>
+    </section>
+
+    <section style="padding-left: 5%; padding-right: 5%; padding-top: 5%;" id="web">
+        <div class="row">
+            <div class="col-lg-6 mobile" style="text-align: center;">
+                <img src="photos/website2.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+            <div class="col-lg-6 desCon">
+                <h3 class="title">My Website / Online Portfolio</h3>
+                <p class="description">I created this website in order to showcase ny projects and learn HTML and CSS along the way. I have slowly iterated through different verison as I learn and implement more like Bootstrap or SEO optimizations. I have curretly gone thorugh
+                    three verison, learn more about my progression.
+                </p>
+                <button disabled>Read More</button>
+            </div>
+            <div class="col-lg-6 pc" style="text-align: center;">
+                <img src="photos/website2.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-left: 5%; padding-right: 5%; padding-top: 5%;" id="imdb">
+        <div class="row">
+            <div class="col-lg-6" style="text-align: center;">
+                <img src="photos/bash3.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+            <div class="col-lg-6 desCon">
+                <h3 class="title">IMDb - Bash Script</h3>
+                <p class="description">This is a Bash script based on my one-line code to retrieve the sharpest image available from a series or movie IMDb-page. All you need to do is to type in the URL of the IMDB page and then the Script will find the URL of the sharpest
+                    image as well as the title of the series or movie and display it on the screen as well as saving it to a text file (.txt) by default, named output.txt.
+                </p>
+
+                <button onclick="window.open('https://github.com/Akisan98/other-projects/tree/master/imdb_bash','_blank')" title="Open in a New Tab">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-left: 5%; padding-right: 5%; padding-top: 5%;">
+        <div class="row">
+
+            <div class="col-lg-6 mobile" style="text-align: center;">
+                <img src="photos/dell21.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+
+            <div class="col-lg-6 desCon">
+                <h3 class="title">Mandatory Assignments</h3>
+                <p class="description">During my years studying programming we have learned and done a lot of mandatory assignments, that are meant to challenge us and test our understanding of the curriculum. We have covered more than 8 languages and concepts from making graphical
+                    user interface to sending network packages with our own “protocol”.
+                </p>
+                <button>Read More</button>
+            </div>
+
+            <div class="col-lg-6 pc" style="text-align: center;">
+                <img src="photos/dell21.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="binge" class="mobileapp spacer">
+        <div class="row">
+            <div class="col-lg-6 mobileImage center">
+                <img src="photos/binge1.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+            <div class="col-lg-6 desCon">
+                <h3 class="title">Binge</h3>
+                <p class="description">As many other people I find myself watching / binging TV series, and with the fractured and now over-saturated streaming market it's hard to keep track of which series you're watching and which episode you're on. My app aims to help you
+                    with that, so you don't have to guess what's next!
+                </p>
+                <a href="https://www.akisan.ml/binge/"><button>Read More</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="mist" class="mobileapp spacer">
+        <div class="row">
+            <div class="col-lg-6 mobile center">
+                <img src="photos/mist1.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+
+            <div class="col-lg-6 desCon">
+                <h3 class="title">Mist</h3>
+                <p class="description">Mist is Android app was developed as a part of the course IN2000: Software Engineering with project work. The task was to develop an Android App written in Kotlin using the Meteorological Institute's API as the base. We chose the topic
+                    "Weather and Climate" and our target group to be people with conditions like asthma.
+                </p>
+                <a href="https://www.akisan.ml/mist"><button>Read More</button></a>
+            </div>
+            <div class="col-lg-6 center pc">
+                <img src="photos/mist1.png" alt="Portrait of Akisan with Keyword overlay" style="max-width: 90%; max-height: 90%;">
+            </div>
+
+        </div>
+    </section>
+
+
+    <div class="overlay"></div>
+
+    <footer id="footer">
+        <div class="fa2">
+            <a href="https://www.akisan.ml/" class="footer_link">Home</a>
+            <a href="https://www.akisan.ml/programming/" class="footer_link">Programming</a>
+            <a href="https://www.akisan.ml/design/" class="footer_link">Design</a>
+        </div>
+
+        <div class="center">
+            <a rel="noopener" href="https://github.com/akisan98" target="_blank" class="fa fa-github" title="My Github Profile"></a>
+            <a rel="noopener" href="https://www.linkedin.com/in/akisan/" target="_blank" class="fa fa-linkedin" title="My LinkedIn Profile"></a>
+            <!-- Hide from Non-Humans -->
+            <a rel="noopener" target="_blank" href="mailto: &#097;&#107;&#105;&#115;&#097;&#110;22&#057;&#056;&#050;&#050;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" title="Send me a email" class="fa fa-envelope" onclick="this.href=this.href
+          .replace(/22/, '&#046;')
+          .replace(/&#050;&#050;/, '&#064;')"></a>
+        </div>
+
+        <p class="center grey-text">© 2020 Akisan </p>
+    </footer>
+
+
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script defer src='js/index.js'></script>
+
+</body>

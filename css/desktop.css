@@ -1,0 +1,55 @@
+/*--------------------------------------- HERO CONTENT - DESKTOP ---------------------------------------*/
+/*@media screen and (min-width: 991px) {*/
+  
+    .heroImage .content{
+      position: relative;
+      top: 10%;
+      left: 45%;
+      max-width: 50%;
+      padding: 24px;
+      flex-wrap: wrap;
+    }
+
+    #name{
+      font-size: 5rem;
+      font-weight: 800;
+    }
+  
+    #descrption{
+      margin-left: 10%;
+      margin-top: 5%;
+      font-size: 2.2rem;
+    }
+    #resume-button{
+      margin-left: 25%;
+      margin-top: 3%;
+      background-color: var(--text-color);
+      color: var(--color-fallback);
+    }
+    #resume-button:hover, #resume-button:focus{
+      background-color: transparent;
+      color:  var(--text-color);
+    }
+  
+    .heroImage .content button {
+      border: 3.5px solid var(--text-color);
+      background-color: transparent;
+      color:  var(--text-color);
+      padding: 3%;
+      padding-right: 8%;
+      padding-left: 8%;
+      font-weight: 700;
+      font-size: 1.3rem;
+      transition: 0.8s;
+    }
+  
+    .heroImage .content button:hover, .heroImage .content button:focus {
+      background-color:  var(--text-color);
+      color: var(--color-fallback);
+      padding-right: 10%;
+      padding-left: 10%;
+      text-decoration: underline;
+    }
+  /*}*/
+  
+  /*--------------------------------------- HERO CONTENT - DESKTOP ---------------------------------------*/
