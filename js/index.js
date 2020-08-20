@@ -1,15 +1,11 @@
 const slide = document.querySelector('.overlay');
-slide.style.animation = "unset";
-
-setTimeout(function(){
-    gsap.fromTo(slide, .35, {transform: "scaleX(1)"}, {transform: "scaleX(0)"})
-}, 500);
 
 /* iOS Detection */
 function isIOSDevice(){
     return !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 }
 if(isIOSDevice()){
+    slide.display = "none"
     console.log("I am an IOS device!");
     alert("IOS");
 } else {
@@ -18,9 +14,17 @@ if(isIOSDevice()){
 }
 
 
-const links = document.querySelectorAll("a");
 
 if(!isIOSDevice()){
+    const slide = document.querySelector('.overlay');
+    slide.style.animation = "unset";
+
+    setTimeout(function(){
+        gsap.fromTo(slide, .35, {transform: "scaleX(1)"}, {transform: "scaleX(0)"})
+    }, 500);
+
+    const links = document.querySelectorAll("a");
+
     links.forEach(function(current){
         current.addEventListener('click', function(event) {
           const isTargetBlank = event.target.target === "_blank";
