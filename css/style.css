@@ -488,7 +488,7 @@ html {
     min-height: 400px;
     background-position: 10%;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.0)), url("../photos/skateboard.webp");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.0)), url("../photos/skateboard.webp"), url("../photos/skateboardBanner.jpg");
 }
 
 .overlay {

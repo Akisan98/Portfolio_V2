@@ -1,4 +1,9 @@
 const slide = document.querySelector('.overlay');
+slide.style.animation = "unset";
+
+setTimeout(function(){
+    gsap.fromTo(slide, .35, {transform: "scaleX(1)"}, {transform: "scaleX(0)"})
+}, 500);
 
 /* iOS Detection 
 function isIOSDevice(){
@@ -16,12 +21,7 @@ if(isIOSDevice()){
 
 
 if(!isIOSDevice()){*/
-const slide = document.querySelector('.overlay');
-slide.style.animation = "unset";
 
-setTimeout(function(){
-    gsap.fromTo(slide, .35, {transform: "scaleX(1)"}, {transform: "scaleX(0)"})
-}, 500);
 
 const links = document.querySelectorAll("a");
 
