@@ -67,6 +67,18 @@ links.forEach(function(current){
   })
 })
 
+/* iOS Detection */
+function isIOSDevice(){
+    return !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+ }
+ if(isIOSDevice()){
+     console.log("I am an IOS device!");
+     alert("IOS");
+ } else {
+    console.log("I am NOT an IOS device!");
+    alert("NOT IOS");
+ }
+
 
 /* window.onbeforeunload = function(event)
 {
