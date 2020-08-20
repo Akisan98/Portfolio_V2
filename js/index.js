@@ -1,11 +1,11 @@
 const slide = document.querySelector('.overlay');
 
-/* iOS Detection */
+/* iOS Detection 
 function isIOSDevice(){
     return !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 }
 if(isIOSDevice()){
-    slide.display = "none"
+    slide.setAttribute.display = "";
     console.log("I am an IOS device!");
     alert("IOS");
 } else {
@@ -15,7 +15,7 @@ if(isIOSDevice()){
 
 
 
-if(!isIOSDevice()){
+if(!isIOSDevice()){*/
     const slide = document.querySelector('.overlay');
     slide.style.animation = "unset";
 
@@ -42,7 +42,7 @@ if(!isIOSDevice()){
           }
         })
     })
-}
+/*}*/
 
 
 
