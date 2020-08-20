@@ -16,11 +16,7 @@ if(isIOSDevice()){
 } else {
     console.log("I am NOT an IOS device!");
     alert("NOT IOS");
-}
-
-
-
-if(!isIOSDevice()){*/
+}*/
 
 
 const links = document.querySelectorAll("a");
