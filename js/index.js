@@ -2,9 +2,9 @@ const slide = document.querySelector('.overlay');
 slide.style.animation = "unset";
 
 setTimeout(function(){
-    gsap.fromTo(slide, 0.35, {opacity: 1}, {opacity: 0})
+    gsap.fromTo(slide, 0.45, {opacity: 1}, {opacity: 0})
     slide.style.display = "none";
-}, 500);
+}, 450);
 
 /* iOS Detection 
 function isIOSDevice(){
