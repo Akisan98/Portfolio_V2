@@ -2,7 +2,8 @@ const slide = document.querySelector('.overlay');
 slide.style.animation = "unset";
 
 setTimeout(function() {
-    gsap.fromTo(slide, .35, { transform: "scaleX(1)" }, { transform: "scaleX(0)" })
+    gsap.fromTo(slide, 0.35, {opacity: 1}, {opacity: 0})
+    slide.style.display = "none";
 }, 500);
 
 
@@ -16,7 +17,8 @@ links.forEach(function(current) {
         var url = this.getAttribute("href");
 
         if (url != null && isTargetBlank == false) {
-            gsap.fromTo(slide, 0.35, { transform: "scaleX(0)" }, { transform: "scaleX(1)" })
+            gsap.fromTo(slide, 0.35,  {opacity: 0}, {opacity: 1})
+        slide.style.display = "block";
             setTimeout(function() {
                 window.location = url;
             }, 350);
