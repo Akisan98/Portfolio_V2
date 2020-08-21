@@ -6,6 +6,12 @@ setTimeout(function() {
     slide.style.display = "none";
 }, 500);
 
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        slide.style.display = "none";
+    }
+};
+
 
 
 const links = document.querySelectorAll("a");

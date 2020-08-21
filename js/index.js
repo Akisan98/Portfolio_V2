@@ -19,6 +19,12 @@ if(isIOSDevice()){
     alert("NOT IOS");
 }*/
 
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        slide.style.display = "none";
+    }
+};
+
 
 const links = document.querySelectorAll("a");
 
