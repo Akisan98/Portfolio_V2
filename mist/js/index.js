@@ -8,6 +8,7 @@ setTimeout(function(){
 
 window.onpageshow = function(event) {
     if (event.persisted) {
+        gsap.fromTo(slide, 0.45, {opacity: 1}, {opacity: 0})
         slide.style.display = "none";
     }
 };
