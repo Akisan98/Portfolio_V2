@@ -184,6 +184,23 @@ html {
 
 /*--------------------------------------- HERO CONTENT - MOBILE ---------------------------------------*/
 
+/*--------------------------------------- CONTENT - MOBILE ---------------------------------------*/
+
+@media screen and (max-width: 400px) {
+    h1{ font-size: 2rem; }
+}
+
+@media screen and (max-width: 320px) {
+    h1{ font-size: 1.5rem; }
+}
+
+@media screen and (max-width: 320px) {
+    h1{ font-size: unset; }
+}
+
+
+
+/*--------------------------------------- CONTENT - MOBILE ---------------------------------------*/
 @media screen and (min-width: 576px) {
     .pc {
         display: "";
