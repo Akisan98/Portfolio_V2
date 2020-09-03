@@ -471,6 +471,9 @@ button::-moz-focus-inner {
 :root {
     --text-color: white;
     --color-fallback: #2C2D29;
+    --text-color-alt: #007bff;
+    --background-color: #2C2D29;
+    --transition-time: .8s;
 }
 
 body,
@@ -703,21 +706,21 @@ html {
 
 .fa-laptop {
     font-size: 50px;
-    color: var(--text-color-alt);
+    color: var(--text-color);
     text-decoration: none;
     display: inline-table;
 }
 
 .fa-server {
     font-size: 50px;
-    color: var(--text-color-alt);
+    color: var(--text-color);
     text-decoration: none;
     display: inline-table;
 }
 
 .fa-pencil {
     font-size: 50px;
-    color: var(--text-color-alt);
+    color: var(--text-color);
     text-decoration: none;
     display: inline-table;
 }
