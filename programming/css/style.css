@@ -137,8 +137,20 @@ button {
     transform-origin: left;
     z-index: 2;
     /* Only for loading in - Will be replaced by JS if supported */
-    animation: revele .35s forwards;
+    animation: revele .45s forwards;
     animation-delay: 500ms;
+}
+
+@keyframes revele {
+    0% {
+        opacity: 1;
+        /*transform: scaleX(1);*/
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        /*transform: scaleX(0);*/
+    }
 }
 
 
