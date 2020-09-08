@@ -744,6 +744,12 @@ html {
 
 /* Portrait - View */
 
+@media screen and (max-width: 575px) {
+    .fa2 {
+        padding: unset;
+    }
+}
+
 @media screen and (max-width: 500px),
 (max-height: 620px) {
     .heroImage .content {

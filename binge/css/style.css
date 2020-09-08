@@ -219,6 +219,9 @@ html {
     .carousel-control-next {
         display: none;
     }
+    .fa2 {
+        padding: unset;
+    }
 }
 
 
