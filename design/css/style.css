@@ -66,8 +66,10 @@ button {
 @media screen and (max-width: 575px) {
     .fa2 {
         padding: unset;
+        padding-top: max(50px, 5%);
+        padding-bottom: max(50px, 5%);
     }
-}
+} 
 
 @media screen and (max-width: 500px) {
     /* Mobile Background and Padding 10%*/

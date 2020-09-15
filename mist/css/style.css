@@ -178,8 +178,10 @@ html {
 @media screen and (max-width: 575px) {
     .fa2 {
         padding: unset;
+        padding-top: max(50px, 5%);
+        padding-bottom: max(50px, 5%);
     }
-}
+} 
 
 
 /* Landscape - View */
