@@ -156,7 +156,7 @@ html {
 
 @media screen and (min-width: 991px) and (min-height: 620px) {
     .heroTitle {
-        font-size: 8rem;
+        font-size: 5rem;
         font-weight: 850;
         text-align: center;
         position: absolute;
