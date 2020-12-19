@@ -14,7 +14,7 @@ body {
     font-family: Arial;
 }
 
-#imdb, #binge, #sms{
+#imdb, #myShows, #sms{
     background-color: #18232C;
 }
 
@@ -87,7 +87,7 @@ button {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    #binge {
+    #myShows {
         min-height: 100vh;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.722), rgba(0, 0, 0, 0.580), rgba(0, 0, 0, 0.3)), url(../photos/bingeB.png);
         text-align: center;
