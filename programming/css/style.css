@@ -94,6 +94,13 @@ button {
         background-size: cover;
         background-repeat: no-repeat;
     }
+    #binge {
+        min-height: 100vh;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.722), rgba(0, 0, 0, 0.580), rgba(0, 0, 0, 0.3)), url(../photos/Binge.png);
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .mobileapp .mobile,
     .mobileapp .mobileImage {
         display: none;

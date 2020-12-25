@@ -14,6 +14,11 @@ html {
   overflow-x: hidden;
   background-color: var(--background-color); }
 
+#binge{
+  background-color: #49483f;
+  padding: 5%;
+}
+
 .center {
   text-align: center; }
 
@@ -75,12 +80,20 @@ button {
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat; }
-  #binge {
+  #my-shows {
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.722), rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.3)), url(../photos/bingeB.png);
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat; }
+
+  #binge{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.722), rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.3)), url(../photos/Binge.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .mobileapp .mobile,
   .mobileapp .mobileImage {
     display: none; }
