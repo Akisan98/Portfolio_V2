@@ -288,10 +288,7 @@ button {
   .pc {
     display: none; }
   .mobile {
-    display: block; }
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none; } }
+    display: block; } }
 
 /* PAGE TRANSITION EFFEKT */
 .overlay {
