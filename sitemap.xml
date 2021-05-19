@@ -4,11 +4,11 @@
 
 <url>
   <loc>https://www.akisan.ml/</loc>
-  <priority>1.00</priority>
+  <priority>0.90</priority>
 </url>
 
 <url>
-  <loc>https://www.akisan.ml/binge/</loc>
+  <loc>https://2.akisan.ml/binge/</loc>
   <priority>0.95</priority>
 </url>
 
