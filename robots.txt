@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.akisan.ml/sitemap.xml
+Sitemap: https://old.akisan.ml/sitemap.xml
